@@ -1,13 +1,14 @@
 {
   "name": "hairday",
-  "description": "Aplicação Web de agendamento para corte de cabelo.",
-  "author": "luis Henrique Miranda Moura ",
+  "description": "aplicaçao web de agendamento para corte de cabelo.",
+  "author": "Saulo Carvalho",
   "scripts": {
-    "server": "json-server --watch server.json ---port=3333",
+    "server": "json-server --watch server.json --port=3333",
     "dev": "webpack serve",
     "build": "webpack"
   },
   "dependencies": {
+    "dayjs": "^1.11.10",
     "json-server": "^1.0.0-alpha.21"
   },
   "devDependencies": {
